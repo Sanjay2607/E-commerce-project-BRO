@@ -1,0 +1,183 @@
+
+body{
+    background-color:#47535E;
+}
+
+.main_wrapper {
+	width:100%;
+	height: auto;
+	margin: auto;
+
+	
+}
+.header_wrapper {
+	width:1000px;
+	height: 120;
+	background: #fff;
+	/*margin: auto;*/
+}
+
+#navbar{
+    width:1000px;
+    height: 50px;
+    background-color: #959;
+    color: aqua;
+}
+#menu a {
+ 	color: #FFF;
+    align-content: center;
+ 	text-decoration: none;
+ 	font-size: 20px;
+ 	margin: 5px;
+ 	padding: 10px;
+ }
+
+/*editing for the menu list*/
+#menu li{ 
+    list-style: none;
+    display: inline;
+}
+#menu a {
+    color: #fff;
+/*    color-style:none;*/
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#menu a:hover {
+    
+    text-decoration: underline;
+    color: #333;
+    font-weight: bolder;
+}
+
+#form{
+    
+    float: right;line-height: 50px;padding-right: 5px;
+}
+
+.content_wrapper {
+    width:100%;
+	height:600px;
+	background: #47535E;
+}
+#right_content {
+	width:1149px;
+	height:auto;
+	
+	float:left;
+
+}
+
+#left_sidebar {
+	width:200px;
+	height:833px;
+	background: #212529;
+	float: left;
+}
+
+.footer {
+	width:100%;
+	height:100px;
+	background: #999;
+	color: #FFF;
+	clear: both;
+}
+
+#sidebar_title {
+	background-color: #139187;
+	color: whitesmoke;
+	padding: 10px;
+	font-style: 22px;
+        text-align: center;
+/*	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+}
+
+#cats{
+    
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#cats li{
+    
+    list-style: none;
+    margin: 8px;
+}
+
+#cats a{
+    color: #fff;font-size: 20px;text-decoration: none; margin:5px;padding: 10px;
+}
+
+#cats a:hover{color: #f93;text-decoration: underline;font-weight: bold;}
+
+#headline{
+    background: #212529; color: #fff; height: 45.5px; width:100%; padding: 10px;
+}
+
+#headline_content{
+    
+    float:right;
+}
+
+#product_box{
+    width:1000px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#single_product{
+    float:left;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#single_product img{
+    border: 2px solid #333;
+}
+.row{
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+}
+.card{
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 5px solid #139187;
+}
+
+.note
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+}
